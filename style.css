@@ -1,0 +1,81 @@
+/*  400 pikselden küçük cihazlar için: */
+body {
+    background-image: url('görsel/istockphoto-1316673633-612x612.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*  400px ve daha büyük cihazlar için: */
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url('görsel/arkaplan.png'); 
+    }
+}
+
+
+.fastqr{
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 3%;
+    size: 50%;
+    z-index: 1;
+}
+
+@media only screen and (min-device-width: 400px) {
+.pideverestoran{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+.pideverestoran{
+
+}
+
+@media only screen and (max-device-width: 400px) {
+    .pideverestoran { 
+        background-image: url(''); 
+    }
+}
+
+
+.ayırıcı{
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 15%;
+    size: 50%;
+    z-index: 1;
+}
+
+.piderler1{
+    
+    box-sizing: border-box;
+    padding: 15px;
+}
+.pideleralt{
+    display: block;
+    height: auto;
+    
+}
+
+
+.ayırıcı2{
+    max-width: 50%;
+    display: block;
+    height: auto;
+    margin-left: 3%;
+    margin-top: 6%;
+    size: 50%;
+    z-index: 1;
+}
+
+.diğerürünler{
+    box-sizing: border-box;
+}
